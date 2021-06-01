@@ -2,6 +2,8 @@
 a gmail based email spammer
 to use this code you need to have a gmail account (the email your sending to can be any address)
 
+this spammer is more efficient because it sends a random strings of characters instead of the same message because most email services group the same email together so this spammer fills up the imbox much more efficiently
+
 ## instructions
 clone the repository
 open the file / unzip the zip
