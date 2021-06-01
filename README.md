@@ -1,9 +1,9 @@
 # email-spammer-random
 a gmail based email spammer
 
-# to use this code you need to have a gmail account (the email your sending to can be any address)
+## to use this code you need to have a gmail account (the email your sending to can be any address)
 
-# instructions
+### instructions
 clone the repository
 open the file / unzip the zip
 run email spammer.py and imput all the information
