@@ -1,3 +1,5 @@
+# !! OLD CODE !!
+
 # email-spammer-random
 a gmail based email spammer
 to use this code you need to have a gmail account (the email your sending to can be any address)
