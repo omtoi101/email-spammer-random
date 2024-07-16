@@ -56,11 +56,11 @@ def email_spammer_lol():
 
         smtp.login(str(email_me), str(email_pass))
 
-        smtp.sendmail('gay@gmail.com', str(target_email), (''.join(random.choice(letters) for i in range(10))))
-        smtp.sendmail('gay@gmail.com', str(target_email2),  (''.join(random.choice(letters) for i in range(10))))
-        smtp.sendmail('gay@gmail.com', str(target_email3),  (''.join(random.choice(letters) for i in range(10))))
-        smtp.sendmail('gay@gmail.com', str(target_email4),  (''.join(random.choice(letters) for i in range(10))))
-        smtp.sendmail('gay@gmail.com', str(target_email5),  (''.join(random.choice(letters) for i in range(10))))
+        smtp.sendmail('none@gmail.com', str(target_email), (''.join(random.choice(letters) for i in range(10))))
+        smtp.sendmail('none@gmail.com', str(target_email2),  (''.join(random.choice(letters) for i in range(10))))
+        smtp.sendmail('none@gmail.com', str(target_email3),  (''.join(random.choice(letters) for i in range(10))))
+        smtp.sendmail('none@gmail.com', str(target_email4),  (''.join(random.choice(letters) for i in range(10))))
+        smtp.sendmail('none@gmail.com', str(target_email5),  (''.join(random.choice(letters) for i in range(10))))
         print(str(index))
 
 
