@@ -1,8 +1,6 @@
 import smtplib
 from colorama import Fore
 from colorama import init
-from termcolor import colored
-from discord_webhook import DiscordWebhook, DiscordEmbed
 import string
 import random
 from urllib.request import Request, urlopen
@@ -66,6 +64,6 @@ def email_spammer_lol():
         print(str(index))
 
 
-for x in range(0, int(send_amount)):
+for x in range(int(send_amount)):
     email_spammer_lol()
 
